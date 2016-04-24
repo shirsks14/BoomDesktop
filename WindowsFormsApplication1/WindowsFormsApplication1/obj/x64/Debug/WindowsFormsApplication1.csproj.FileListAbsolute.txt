@@ -1,0 +1,14 @@
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\MWArray.dll
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\SoundPlotter.dll
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\MWArray.xml
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\Interop.MLApp.dll
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\Sujan\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
