@@ -1,0 +1,10 @@
+function Y = Circle(radius,center,pathangle, color)
+Y = zeros(length(radius), length(radius));
+th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+for(
+R = radius;  %or whatever radius you want
+x = R*cos(th) + center(1);
+y = R*sin(th) + center(2);
+plot(x,y,'color',color); axis equal;
+
+end

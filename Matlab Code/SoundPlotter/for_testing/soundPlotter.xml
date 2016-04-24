@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>soundPlotter</name>
+    </assembly>
+    <members>
+        <member name="T:soundPlotter.PlotSound">
+            <summary>
+            The PlotSound class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\Circle.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\dBAtDistance.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\dBWithDistance.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\fouriertransform.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\maxDistance.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\plotSound.m
+            <newpara></newpara>
+            C:\Users\Sujan\Desktop\Data\soundint.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:soundPlotter.PlotSound.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:soundPlotter.PlotSound.#ctor">
+            <summary>
+            Constructs a new instance of the PlotSound class.
+            </summary>
+        </member>
+        <member name="M:soundPlotter.PlotSound.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:soundPlotter.PlotSound.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:soundPlotter.PlotSound.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="radius">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="radius">Input argument #1</param>
+             <param name="center">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="radius">Input argument #1</param>
+             <param name="center">Input argument #2</param>
+             <param name="pathangle">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="radius">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="radius">Input argument #1</param>
+             <param name="center">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the Circle MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="radius">Input argument #1</param>
+             <param name="center">Input argument #2</param>
+             <param name="pathangle">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.Circle(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the Circle function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             th = linspace( pathangle + pi/4, pathangle -pi/4, 100);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <param name="distance">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the dBAtDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <param name="distance">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBAtDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the dBAtDistance function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBWithDistance">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the dBWithDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             20*log10(P)
+             20*log10(soundint(400,const,r_o))
+             Y=0;
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBWithDistance(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the dBWithDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             20*log10(P)
+             20*log10(soundint(400,const,r_o))
+             Y=0;
+             </remarks>
+             <param name="filename">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBWithDistance(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the dBWithDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             20*log10(P)
+             20*log10(soundint(400,const,r_o))
+             Y=0;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBWithDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the dBWithDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             20*log10(P)
+             20*log10(soundint(400,const,r_o))
+             Y=0;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="filename">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.dBWithDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the dBWithDistance function in which the input and
+             output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             20*log10(P)
+             20*log10(soundint(400,const,r_o))
+             Y=0;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <param name="plotCheck">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the fouriertransform MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <param name="plotCheck">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.fouriertransform(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the fouriertransform function in which the input and
+             output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Sound Analysis with MATLAB Implementation      
+             Author: M.Sc. Eng. Hristo Zhivomirov  04/01/14   
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.maxDistance">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the maxDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.maxDistance(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the maxDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="p">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.maxDistance(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the maxDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.maxDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the maxDistance MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="p">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.maxDistance(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the maxDistance function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.plotSound">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the plotSound MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             filenames = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+             color = ['g'; 'b'; 'y';'m';'r'];
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.plotSound(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the plotSound MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             filenames = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+             color = ['g'; 'b'; 'y';'m';'r'];
+             </remarks>
+             <param name="fileName">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.plotSound(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the plotSound MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             filenames = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+             color = ['g'; 'b'; 'y';'m';'r'];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.plotSound(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the plotSound MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             filenames = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+             color = ['g'; 'b'; 'y';'m';'r'];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fileName">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.plotSound(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the plotSound function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             filenames = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+             color = ['g'; 'b'; 'y';'m';'r'];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the soundint MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the soundint MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="distance">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the soundint MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="distance">Input argument #1</param>
+             <param name="const0">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the soundint MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="distance">Input argument #1</param>
+             <param name="const0">Input argument #2</param>
+             <param name="r_o">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the soundint MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the soundint MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="distance">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the soundint MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="distance">Input argument #1</param>
+             <param name="const0">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the soundint MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="distance">Input argument #1</param>
+             <param name="const0">Input argument #2</param>
+             <param name="r_o">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.soundint(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the soundint function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:soundPlotter.PlotSound.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,32 @@
+filename = {'f1.wav';'d1.wav';'n1.wav';'n2.wav';'n3.wav'};
+[f1,Fs_1] = audioread(filename{1});
+[d1,Fs_2] = audioread(filename{2});
+[n1,Fs_3] = audioread(filename{3});
+[n2,Fs_4] = audioread(filename{4});
+[n3,Fs_5] = audioread(filename{5});
+
+ho
+
+data = f1;
+fs = Fs_1;
+plot_single_wav( data, fs );
+
+data = d1;
+fs = Fs_1;
+plot_single_wav( data, fs );
+
+data = n1;
+fs = Fs_1;
+plot_single_wav( data, fs );
+
+% Fourrier stuff
+%y = fft(data, length(data));
+%plot(t, y);
+
+%sound(data, fs);
+
+
+% my_player = audioplayer(data, fs);
+% play(my_player)
+
+% dataInDB = mag2db(data); DOESN'T WORK
