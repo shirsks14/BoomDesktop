@@ -43,7 +43,7 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
-            
+            this.tableLayoutPanel1.CellPaint += tableLayoutPanel1_CellPaint;
             //boomdata = new BoomMain();
 
         }
@@ -53,6 +53,8 @@ namespace WindowsFormsApplication1
             //chart1.Series["Data"].ChartType =
             //            SeriesChartType.FastLine;
             //chart1.Series["Data"].Color = Color.Red;
+
+            label5.Visible = true;
             try
             {
                 plotSound = new soundPlotter.PlotSound();
@@ -66,15 +68,21 @@ namespace WindowsFormsApplication1
                 MWCharArray input = new MWCharArray(fileName);
                 fileSelected = fileName;
                 MWArray[] result = new MWArray[2];
+                
                 result = plotSound.plotSound(2, input);
                 textBox3.Text = result[0].ToString();
-                textBox4.Text = Convert.ToDouble(result[1]).ToString();
+
+                //double tempo = Convert.ToDouble(result[1].ToString());
+                textBox4.Text = Convert.ToDouble(result[1].ToString()).ToString();
+                
             }
             catch(Exception e)
             {
                 Console.WriteLine(e.InnerException);
             }
-
+            string[] temp = fileName.Split('\\');
+            label6.Text = temp[temp.Length - 1];
+            label5.Visible = false;
             IntPtr foundwindow = FindWindow("sunawtframe", "figure 2");
             SetParent(foundwindow, panel1.Handle);
             MoveWindow(foundwindow, -5, -80, panel1.Width+10, panel1.Height+90);
@@ -114,6 +122,7 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
+
             graph("C:\\Users\\Sujan\\Desktop\\Data\\f1.wav");
         }
 
@@ -163,6 +172,23 @@ namespace WindowsFormsApplication1
         private void button7_Click(object sender, EventArgs e)
         {
             GetdBwithDistance(Convert.ToDouble(textBox2.Text));
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "wav files (*.wav)|*.wav";
+            dialog.InitialDirectory = @"C:\";
+            dialog.Title = "Please select an image file to encrypt.";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                graph(dialog.FileName);
+            }
+        }
+
+        private void tableLayoutPanel1_CellPaint(object sender, TableLayoutCellPaintEventArgs e)
+        {
+            e.Graphics.DrawLine(Pens.Black, e.CellBounds.Location, new Point(e.CellBounds.Right, e.CellBounds.Top));
         }
     }
 

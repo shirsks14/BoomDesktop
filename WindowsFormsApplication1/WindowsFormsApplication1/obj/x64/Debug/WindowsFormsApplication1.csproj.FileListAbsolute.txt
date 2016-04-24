@@ -2,7 +2,6 @@ C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\Wi
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\WindowsFormsApplication1.exe
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\WindowsFormsApplication1.pdb
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\MWArray.dll
-C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\SoundPlotter.dll
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x64\Debug\MWArray.xml
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\Interop.MLApp.dll
 C:\Users\Sujan\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x64\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
